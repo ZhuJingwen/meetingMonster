@@ -1,0 +1,185 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=6d15bfce-7a94-433b-a977-b6463c3b06f1");
+@font-face{
+font-family:"FuturaLT-Light";
+src:url("Fonts/FuturaLT-Light?#iefix") format("eot")
+}
+@font-face{
+font-family:"FuturaLT";
+src:url("Fonts/FuturaLT-Light?#iefix");
+src:url("Fonts/FuturaLT-Light?#iefix") format("eot"),url("Fonts/FuturaLT-Light.woff") format("woff"),url("Fonts/FuturaLT-Light.ttf") format("truetype"),url("Fonts/FuturaLT-Light.svg#FuturaLT-Light") format("svg");
+font-weight: 100;
+font-style: normal;
+}
+@font-face{
+font-family:"FuturaLT_o1";
+src:url("Fonts/FuturaLT-LightOblique.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"FuturaLT";
+src:url("Fonts/FuturaLT-LightOblique.eot?#iefix");
+src:url("Fonts/FuturaLT-LightOblique.eot?#iefix") format("eot"),url("Fonts/FuturaLT-LightOblique.woff") format("woff"),url("Fonts/FuturaLT-LightOblique.ttf") format("truetype"),url("Fonts/FuturaLT-LightOblique.svg#FuturaLT-LightOblique") format("svg");
+font-weight: 100;
+font-style: oblique;
+}
+@font-face{
+font-family:"FuturaLT_n2";
+src:url("Fonts/FuturaLT-Book.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"FuturaLT";
+src:url("Fonts/FuturaLT-Book.eot?#iefix");
+src:url("Fonts/FuturaLT-Book.eot?#iefix") format("eot"),url("Fonts/FuturaLT-Book.woff") format("woff"),url("Fonts/FuturaLT-Book.ttf") format("truetype"),url("Fonts/FuturaLT-Book.svg#FuturaLT-Book") format("svg");
+font-weight: 200;
+font-style: normal;
+}
+@font-face{
+font-family:"FuturaLT_o2";
+src:url("Fonts/FuturaLT-BookOblique.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"FuturaLT";
+src:url("Fonts/FuturaLT-BookOblique.eot?#iefix");
+src:url("Fonts/FuturaLT-BookOblique.eot?#iefix") format("eot"),url("Fonts/FuturaLT-BookOblique.woff") format("woff"),url("Fonts/FuturaLT-BookOblique.ttf") format("truetype"),url("Fonts/FuturaLT-BookOblique.svg#FuturaLT-BookOblique") format("svg");
+font-weight: 200;
+font-style: oblique;
+}
+@font-face{
+font-family:"FuturaLT_n4";
+src:url("Fonts/FuturaLT-Bold.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"FuturaLT";
+src:url("Fonts/FuturaLT-Bold.eot?#iefix");
+src:url("Fonts/FuturaLT-Bold.eot?#iefix") format("eot"),url("Fonts/FuturaLT-Bold.woff") format("woff"),url("Fonts/FuturaLT-Bold.ttf") format("truetype"),url("Fonts/FuturaLT-Bold.svg#FuturaLT-Bold") format("svg");
+font-weight: 400;
+font-style: normal;
+}
+@font-face{
+font-family:"FuturaLT_o4";
+src:url("Fonts/FuturaLT-BoldOblique.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"FuturaLT";
+src:url("Fonts/FuturaLT-BoldOblique.eot?#iefix");
+src:url("Fonts/FuturaLT-BoldOblique.eot?#iefix") format("eot"),url("Fonts/FuturaLT-BoldOblique.woff") format("woff"),url("Fonts/FuturaLT-BoldOblique.ttf") format("truetype"),url("Fonts/FuturaLT-BoldOblique.svg#FuturaLT-BoldOblique") format("svg");
+font-weight: 400;
+font-style: oblique;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  /*background-color: #6EDAD5;*/
+}
+
+.sidebar{
+  position: absolute;
+  left:0;
+  top:0;
+  display: inline-block;
+  height:100%;
+  width:15%;
+  margin:0;
+  padding:50px 64px;
+  text-align: left;
+  font-family: "FuturaLT";
+  color: #FFF;
+  z-index: 9999;
+
+background: -webkit-linear-gradient(top, rgba(51,61,71,0.86), rgba(51,61,71,0.27)); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom, rgba(51,61,71,0.86), rgba(51,61,71,0.27)); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom, rgba(51,61,71,0.86), rgba(51,61,71,0.27)); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom, rgba(51,61,71,0.86), rgba(51,61,71,0.27)); /* Standard syntax (must be last) */
+}
+
+#arrow{
+  margin-bottom:15px;
+}
+#date{
+  font-size: 18pt;
+  font-weight:400;
+  margin:20px 0;
+
+}
+
+#theme{
+  font-size: 14pt;
+  font-weight:100;
+  margin:10px 0;
+}
+
+#time{
+  font-size: 42pt;
+  font-weight:100;
+  margin:140px 0;
+
+}
+
+#weather{
+  font-size: 42pt;
+  font-weight:100;
+  margin:140px 0;
+}
+
+#temp{
+    display: inline-block;
+    text-align: center;
+}
+
+#quote{
+    margin:140px 0;
+}
+#sentence{
+  font-size: 14pt;
+  font-weight:400;
+}
+
+#author{
+  font-size: 14pt;
+  font-weight:100;
+  font-style: oblique;
+}
+
+/*.content{
+  position: absolute;
+  width:85%;
+  height:100%;
+  left:0;
+  top:0;
+  display: flex;
+  z-index: -5;
+  margin:0;
+  padding:0;
+  background-color: #6EDBD5;
+}*/
+
+
+
+
+#slideshow {
+    position: relative;
+}
+
+#slideshow > div {
+    position: absolute;
+}
+
+.textbox{
+  position:fixed;
+  top:200px;
+  left:40%;
+  margin:20px;
+  font-family: "FuturaLT";
+  font-weight:400;
+  text-align: left;
+  font-size: 40pt;
+  color: #FFF;
+
+}
